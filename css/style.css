@@ -1,0 +1,270 @@
+
+/* CSS RESET STYLE */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+img, input, textarea, button {
+	border: 0;
+	outline: 0;
+	resize: none;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	-moz-transition: all .200s ease-in-out;
+	-webkit-transition: all .200s ease-in-out;
+	transition: all .200s ease-in-out; 
+}
+.clear {
+	clear: both;
+	font-size: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+li.clearfix {
+	display: list-item;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body, p, a, li, span, div {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+*{
+	margin: 0 auto;
+	font-family: Poppins, sans-serif;
+	text-decoration: none;
+
+}
+.stellarnav.dark, .stellarnav.dark ul ul{
+	background-color: #ffffff !important;
+	
+}
+.stellarnav.dark a, .stellarnav.dark li a {
+     color: #1a1f22 !important;
+     padding-left: 10px !important;
+     font-size: 12px;
+     float: left;
+
+}
+
+.btn{
+	font-size: 14px;
+}
+header{
+	height: 75px;
+}
+/*banner*/
+.banner1{
+
+    position: absolute;
+    bottom: 200px;
+    left: 450px;
+    right: 200px;
+    color: #ffffff;
+    text-align: end;
+
+}
+.banner1 h1{
+	font-family: 'Baloo Da 2', cursive;
+	font-weight: 800;
+	font-size: 60px;
+
+
+
+}
+.banner2,.banner3{
+
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    color: #ffffff;
+
+}
+.banner2 h1,.banner3 h1{
+	font-family: 'Baloo Da 2', cursive;
+	font-weight: 800;
+	font-size: 60px;
+	
+
+}
+.bx-wrapper {
+	border: none !important;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 20px !important;
+}
+
+.banner-button{
+	margin-bottom: -75px;
+}
+.banner1 p,.banner2 p,.banner3 p{
+	margin-bottom: 50px;
+}
+.fa, .fas,.far{
+	color: red !important;
+}
+/*main*/
+.card h1{
+	font-family: 'Baloo Da 2', cursive; 
+	font-size: 45px;
+	font-weight: 800;
+
+}
+.card-texts{
+	font-size: 15px;
+    opacity: 0.5;
+
+}
+.card{
+	border: none !important;
+	
+}
+ main .card-body{
+	padding: 0 !important; 
+}
+.card-body a{
+	font-size: 13px;
+	color: black;
+}
+.card-texts{
+	margin-bottom: 30px;
+}
+.card-body a span{
+	border-bottom: solid red ;
+}
+.card h5{
+	font-size: 16px;
+	padding-top: 20px;
+	
+}
+.card p{
+	font-size: 12px;
+	padding-bottom: 30px;
+
+}
+.card-deck{
+	MARGIN-TOP: 100px;
+    margin-bottom: 100px;
+}
+/*standard*/
+
+.standard{
+	height: 300px;
+	width: 100%;
+    background-image: url(../images/standard.png);
+    background-position: top center;
+
+}
+.stand{
+	color: #ffffff;
+	text-align: center;
+	padding: 65px 10px;
+
+
+}
+.stand h1{
+	font-family: 'Baloo Da 2'; 
+	font-weight: 800;
+	font-size: 60px;
+}
+.stand p{
+	font-size: 14px;
+}
+/*manage*/
+.manage{
+	height: 750px;
+}
+.team{
+	padding: 60px 140px 40px 140px;
+	text-align: center;
+
+}
+.team h1{
+	font-family: 'Baloo Da 2'; 
+	font-weight: 800;
+	font-size: 50px;
+	color: black;
+
+}
+.team p{
+	font-size: 12px;
+	color: #70707a;
+}
+.pic col-md-3{
+	margin: 20px; 
+}
+.pic img{
+	margin-bottom: 20px; 
+	border-radius: 8px;
+}
+.pic h5{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px;
+
+}
+.pic p{
+	font-size: 12px;
+}
+.pic i{
+	color: black;
+	margin-left: 5px;
+	font-size: 12px;
+}
+/*blog*/
+
+.blog h1{
+	font-size: 35px;
+	font-family: 'Baloo Da 2'; 
+	font-weight: 800;
+	text-align: center;
+}
+/*footer*/
+
+footer{
+	height: 100px;
+	background-color: #1e1f24;
+
+}
+footer img{
+	margin-top: 15px;
+	margin-left: 30px;
+
+}
+footer i{
+	font-size: 16px;
+	border: solid #9b9daa .5px;
+	color: #9b9daa;
+	border-radius: 50%;
+	padding: 15px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+footer p{
+	color: #9b9daa;
+	margin-top: 40px;
+	font-size: 12px;
+}
+footer i:first-child{
+	padding-left: 18px;
+	padding-right: 18px; 
+
